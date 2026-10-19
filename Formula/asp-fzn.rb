@@ -6,9 +6,9 @@ class AspFzn < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/TU-Wien-KBS/homebrew-tap/releases/download/asp-fzn-0.3.1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d66e0474545a4ac54061002e0a39c83d817c03828e09a1257790df757cc3da0c"
-    sha256 cellar: :any,                 x86_64_linux: "6b81a31c5bf96a2a6245116f27b56a9a5a5c3516f6e36f302488c1a423b3426b"
+    root_url "https://github.com/TU-Wien-KBS/homebrew-tap/releases/download/asp-fzn-0.3.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "e822a4ab6b08c64fcb04c322a1cc32e19c72934729469dfae04c07c9f7eb0c60"
+    sha256 cellar: :any,                 x86_64_linux: "7e39aea4098e121c14a526998d26808222dc560a4a5257c2ecd49983c81fb4b0"
   end
 
   depends_on "rust" => :build

@@ -1,8 +1,8 @@
 class AspFzn < Formula
   desc "Enables solving ASP programs via FlatZinc solvers"
   homepage "https://kr.tuwien.ac.at/systems/asp-fzn/"
-  url "https://gitlab.tuwien.ac.at/kbs/BAI/asp-fzn/-/archive/v0.3.3/asp-fzn-v0.3.3.tar.gz"
-  sha256 "01c78946cdf6ea2a5600598ef0674cd11a54dd2d5b36f8c20ee5543f2a4d0407"
+  url "https://gitlab.tuwien.ac.at/kbs/BAI/asp-fzn/-/archive/v0.3.4/asp-fzn-v0.3.4.tar.gz"
+  sha256 "405b5bfea7277ae0087302470caeeadebd91edbef4406fd8ede1a80f85ab4558"
   license "Apache-2.0"
 
   bottle do
